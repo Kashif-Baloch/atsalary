@@ -724,7 +724,7 @@
         />
       </div>
     </div>
-    <div class="bg-surface-0 dark:bg-surface-950 p-6 md:p-12 lg:p-20">
+    <!-- <div class="bg-surface-0 dark:bg-surface-950 p-6 md:p-12 lg:p-20">
       <div class="flex justify-center">
         <div class="flex flex-1">
           <div class="flex flex-1 flex-col">
@@ -931,7 +931,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <Footer />
   </div>
 </template>
