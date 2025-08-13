@@ -358,28 +358,4 @@ const handleChoosePlan = () => {
   console.log("Plan selected: Complete CRM Package - €30/month");
   // You can redirect to payment or show checkout modal
 };
-
-const features = [
-  "Arcu purus",
-  "Posuere felis",
-  "Curabitur mollis",
-  "Vitae odio",
-  "Orci, mi",
-  "Tincidunt vulputate",
-  "Quis felis",
-  "Dignissim vivamus",
-];
-
-const basicFeatures = [true, true, true, true, false, false, false, "5"];
-const premiumFeatures = [true, true, true, true, true, false, false, "10"];
-const enterpriseFeatures = [
-  true,
-  true,
-  true,
-  true,
-  true,
-  true,
-  true,
-  "Unlimited",
-];
 </script>

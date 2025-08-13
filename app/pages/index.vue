@@ -552,7 +552,7 @@
                   class="w-full h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-start shadow-inner relative"
                 >
                   <img
-                    :src="`/archief/Picture ${item.id + 1}.png`"
+                    :src="`/archief/pic ${item.id + 1}.png`"
                     :alt="`Image ${item.id + 1}`"
                     class="max-w-full max-h-full object-contain"
                     style="height: auto"
@@ -602,7 +602,7 @@
                 >
                   <div class="w-full h-full flex items-center justify-center">
                     <img
-                      :src="`/archief/Picture ${item.id + 1}.png`"
+                      :src="`/archief/pic ${item.id + 1}.png`"
                       :alt="`Image ${item.id + 1}`"
                       class="max-w-full max-h-full object-contain"
                       style="height: auto"
