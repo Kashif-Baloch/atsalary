@@ -37,12 +37,14 @@
                 >
               </li>
             </ul>
-            <Button
-              label="Claim Your Account"
-              rounded
-              size="large"
-              class="mt-12 !bg-blue-700 !border-none !text-white !outline-none"
-            />
+            <RouterLink to="/contact">
+              <Button
+                label="Claim Your Account"
+                rounded
+                size="large"
+                class="mt-12 !bg-blue-700 !border-none !text-white !outline-none"
+              />
+            </RouterLink>
           </div>
           <div class="flex-1 text-center lg:text-right overflow-hidden">
             <img
