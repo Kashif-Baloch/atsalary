@@ -78,7 +78,7 @@
           label="Login"
         /> -->
           <Button
-            class="!text-white !bg-blue-700 !border-none !outline-none"
+            class="!text-white !rounded-full !bg-blue-700 !border-none !outline-none"
             label="Naar portaal"
           />
         </div>

@@ -20,19 +20,19 @@
             </p>
             <ul class="list-none flex flex-col gap-4">
               <li class="flex items-center gap-2">
-                <i class="pi pi-trophy text-primary text-xl!" /><span
+                <i class="pi pi-trophy text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Senectus et netus et malesuada fames.</span
                 >
               </li>
               <li class="flex items-center gap-2">
-                <i class="pi pi-sparkles text-primary text-xl!" /><span
+                <i class="pi pi-sparkles text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Orci a scelerisque purus semper eget.</span
                 >
               </li>
               <li class="flex items-center gap-2">
-                <i class="pi pi-bolt text-primary text-xl!" /><span
+                <i class="pi pi-bolt text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Aenean sed adipiscing diam donec adipiscing tristique.</span
                 >
@@ -550,7 +550,7 @@
               </div>
               <div class="flex w-full flex-col gap-4">
                 <div
-                  class="w-full h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-start shadow-inner relative"
+                  class="w-fit h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
                 >
                   <img
                     :src="`/archief/pic ${item.id + 1}.png`"
@@ -597,16 +597,15 @@
               class="flex gap-12"
               :class="{ 'flex-row-reverse': index % 2 === 0 }"
             >
-              <div class="w-127">
+              <div class="w-127 flex justify-center">
                 <div
-                  class="h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-start shadow-inner relative"
+                  class="h-52 w-fit bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
                 >
                   <div class="w-full h-full flex items-center justify-center">
                     <img
                       :src="`/archief/pic ${item.id + 1}.png`"
                       :alt="`Image ${item.id + 1}`"
-                      class="max-w-full max-h-full object-contain"
-                      style="height: auto"
+                      class="w-full h-full object-contain"
                     />
                   </div>
                 </div>
@@ -659,7 +658,7 @@
       </div>
     </div>
 
-    <div class="bg-surface-0 dark:bg-surface-900">
+    <!-- <div class="bg-surface-0 dark:bg-surface-900">
       <div
         class="container mx-auto max-w-7xl px-4 p-20 flex flex-col items-center gap-12"
       >
@@ -698,9 +697,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="bg-surface-50 dark:bg-surface-950">
+    <!-- <div class="bg-surface-50 dark:bg-surface-950">
       <div class="container mx-auto max-w-7xl px-4 py-20">
         <div
           style="
@@ -740,7 +739,7 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="bg-surface-0 dark:bg-surface-950 p-6 md:p-12 lg:p-20">
       <div class="flex justify-center">

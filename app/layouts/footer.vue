@@ -1,8 +1,8 @@
 <template>
   <div class="bg-surface-0 dark:bg-surface-900">
     <div class="container mx-auto max-w-7xl px-4 py-20 flex flex-col gap-8">
-      <div class="h-px bg-surface-300 dark:bg-surface-700" />
-      <div
+      <!-- <div class="h-px bg-surface-300 dark:bg-surface-700" /> -->
+      <!-- <div
         class="grid xl:grid-cols-6 md:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-8"
       >
         <div class="flex flex-col gap-6">
@@ -124,7 +124,7 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="h-px bg-surface-300 dark:bg-surface-700" />
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
         <span class="text-surface-500 dark:text-surface-400 leading-tight"

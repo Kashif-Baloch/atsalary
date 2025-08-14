@@ -17,19 +17,19 @@
           </p>
           <ul class="list-none flex flex-col gap-4">
             <li class="flex items-center gap-2">
-              <i class="pi pi-phone text-primary text-xl!" />
+              <i class="pi pi-phone text-yellow-300 text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Quick response within 24 hours.</span
               >
             </li>
             <li class="flex items-center gap-2">
-              <i class="pi pi-envelope text-primary text-xl!" />
+              <i class="pi pi-envelope text-yellow-300 text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Professional support team ready to help.</span
               >
             </li>
             <li class="flex items-center gap-2">
-              <i class="pi pi-users text-primary text-xl!" />
+              <i class="pi pi-users text-yellow-300 text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Personalized solutions for your business needs.</span
               >
@@ -110,12 +110,14 @@
             <div class="mt-8 pt-6 border-t border-gray-700">
               <div class="flex justify-center gap-4">
                 <div class="text-center">
-                  <i class="pi pi-envelope text-primary text-lg mb-2 block"></i>
+                  <i
+                    class="pi pi-envelope text-yellow-300 text-lg mb-2 block"
+                  ></i>
                   <p class="text-gray-400 text-sm">Email</p>
                   <p class="text-white text-sm">hello@company.com</p>
                 </div>
                 <div class="text-center">
-                  <i class="pi pi-phone text-primary text-lg mb-2 block"></i>
+                  <i class="pi pi-phone text-yellow-300 text-lg mb-2 block"></i>
                   <p class="text-gray-400 text-sm">Phone</p>
                   <p class="text-white text-sm">+1 (555) 123-4567</p>
                 </div>

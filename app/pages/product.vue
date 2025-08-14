@@ -39,7 +39,7 @@
             </div>
             <div class="flex w-full flex-col gap-4">
               <div
-                class="w-full h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-start shadow-inner relative"
+                class="w-fit h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <img
                   :src="`/archief/pic ${item.id + 1}.png`"
@@ -86,9 +86,9 @@
             class="flex gap-12"
             :class="{ 'flex-row-reverse': index % 2 === 0 }"
           >
-            <div class="w-127">
+            <div class="w-127 flex justify-center">
               <div
-                class="h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-start shadow-inner relative"
+                class="h-52 w-fit bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <div class="w-full h-full flex items-center justify-center">
                   <img

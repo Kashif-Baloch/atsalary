@@ -19,19 +19,19 @@
             </p>
             <ul class="list-none flex flex-col gap-4">
               <li class="flex items-center gap-2">
-                <i class="pi pi-trophy text-primary text-xl!" /><span
+                <i class="pi pi-trophy text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Senectus et netus et malesuada fames.</span
                 >
               </li>
               <li class="flex items-center gap-2">
-                <i class="pi pi-sparkles text-primary text-xl!" /><span
+                <i class="pi pi-sparkles text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Orci a scelerisque purus semper eget.</span
                 >
               </li>
               <li class="flex items-center gap-2">
-                <i class="pi pi-bolt text-primary text-xl!" /><span
+                <i class="pi pi-bolt text-yellow-300 text-xl!" /><span
                   class="text-gray-400 leading-normal"
                   >Aenean sed adipiscing diam donec adipiscing tristique.</span
                 >
@@ -511,7 +511,7 @@
       </div>
     </div>
 
-    <div class="bg-surface-0 dark:bg-surface-900">
+    <!-- <div class="bg-surface-0 dark:bg-surface-900">
       <div
         class="container mx-auto max-w-7xl px-4 py-20 flex flex-col gap-8 justify-center items-center relative"
       >
@@ -656,9 +656,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="bg-surface-0 dark:bg-surface-900">
+    <!-- <div class="bg-surface-0 dark:bg-surface-900">
       <div
         class="container mx-auto max-w-7xl px-4 p-20 flex flex-col items-center gap-12"
       >
@@ -697,9 +697,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="bg-surface-50 dark:bg-surface-950">
+    <!-- <div class="bg-surface-50 dark:bg-surface-950">
       <div class="container mx-auto max-w-7xl px-4 py-20">
         <div
           style="
@@ -739,7 +739,7 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="bg-surface-0 dark:bg-surface-950 p-6 md:p-12 lg:p-20">
       <div class="flex justify-center">
         <div class="flex flex-1">
