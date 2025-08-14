@@ -3,7 +3,7 @@
 
   <OveronsComponent />
 
-  <div class="min-h-screen bg-surface-0 dark:bg-surface-900">
+  <div class="min-h-screen bg-surface-900">
     <!-- Hero -->
     <section>
       <div class="container mx-auto max-w-7xl px-4 py-16 md:py-20">
@@ -27,7 +27,7 @@
     <section class="container mx-auto max-w-7xl px-4 py-8 md:py-10">
       <div class="w-full overflow-x-auto">
         <div
-          class="inline-flex gap-2 rounded-xl border border-surface-200 dark:border-surface-800 p-1 bg-white dark:bg-surface-900"
+          class="inline-flex gap-2 rounded-xl border border-surface-800 p-1 bg-surface-900"
         >
           <button
             v-for="tab in tabs"
@@ -36,8 +36,8 @@
             class="px-4 md:px-5 py-2 rounded-lg text-sm md:text-base transition-colors"
             :class="
               activeTab === tab.key
-                ? 'bg-surface-100 dark:bg-surface-800 text-surface-800 dark:text-surface-0'
-                : 'text-surface-600 dark:text-surface-300 hover:bg-surface-100/60 dark:hover:bg-surface-800/60'
+                ? 'bg-surface-800 text-surface-0'
+                : 'text-surface-300 hover:bg-surface-800/60'
             "
           >
             {{ tab.label }}
@@ -49,12 +49,10 @@
     <!-- People grid -->
     <section class="container mx-auto max-w-7xl px-4 py-10 md:py-12">
       <div class="flex items-center justify-between mb-6">
-        <h2
-          class="text-2xl md:text-3xl font-semibold text-blue-700 dark:text-surface-0"
-        >
+        <h2 class="text-2xl md:text-3xl font-semibold text-surface-0">
           {{ currentLabel }}
         </h2>
-        <div class="text-sm text-surface-600 dark:text-surface-400">
+        <div class="text-sm text-surface-400">
           {{ filteredPeople.length }} personen
         </div>
       </div>
@@ -63,18 +61,16 @@
         <article
           v-for="person in filteredPeople"
           :key="person.id"
-          class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-5 hover:border-blue-700/50 transition-colors"
+          class="rounded-2xl border border-surface-800 bg-surface-900 p-5 hover:border-blue-700/50 transition-colors"
         >
           <div class="flex items-center gap-4">
             <div
-              class="w-14 h-14 rounded-xl bg-surface-100 dark:bg-surface-800 grid place-content-center text-lg font-semibold text-surface-700 dark:text-surface-200"
+              class="w-14 h-14 rounded-xl bg-surface-800 grid place-content-center text-lg font-semibold text-surface-200"
             >
               {{ person.initials }}
             </div>
             <div>
-              <h3
-                class="text-base font-medium text-surface-800 dark:text-surface-0"
-              >
+              <h3 class="text-base font-medium text-surface-0">
                 {{ person.name }}
               </h3>
               <p class="text-sm text-blue-700">
@@ -82,7 +78,7 @@
               </p>
             </div>
           </div>
-          <p class="mt-4 text-sm text-surface-600 dark:text-surface-400">
+          <p class="mt-4 text-sm text-surface-400">
             {{ person.bio }}
           </p>
           <div class="mt-5 flex items-center gap-3 text-surface-500">
@@ -97,49 +93,35 @@
     <!-- Waarden -->
     <section class="container mx-auto max-w-7xl px-4 py-12">
       <div class="text-center max-w-3xl mx-auto">
-        <h2
-          class="text-2xl md:text-3xl font-semibold text-surface-900 dark:text-surface-0"
-        >
+        <h2 class="text-2xl md:text-3xl font-semibold text-surface-0">
           Onze waarden
         </h2>
-        <p class="mt-3 text-surface-600 dark:text-surface-400">
+        <p class="mt-3 text-surface-400">
           De principes die ons dagelijks sturen—van productbeslissingen tot
           support.
         </p>
       </div>
 
       <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <div
-          class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
-        >
+        <div class="rounded-2xl border border-surface-800 bg-surface-900 p-6">
           <i class="pi pi-star text-xl text-[#d6af84]"></i>
-          <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
-            Klantwaarde eerst
-          </h3>
-          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm">
+          <h3 class="mt-3 font-medium text-surface-0">Klantwaarde eerst</h3>
+          <p class="mt-2 text-surface-400 text-sm">
             We leveren features die echte impact hebben—meetbaar en merkbaar.
           </p>
         </div>
-        <div
-          class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
-        >
+        <div class="rounded-2xl border border-surface-800 bg-surface-900 p-6">
           <i class="pi pi-shield text-xl text-[#d6af84]"></i>
-          <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
-            Betrouwbaarheid
-          </h3>
-          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm">
+          <h3 class="mt-3 font-medium text-surface-0">Betrouwbaarheid</h3>
+          <p class="mt-2 text-surface-400 text-sm">
             Veilig, voorspelbaar en schaalbaar. Payroll laat geen ruimte voor
             toeval.
           </p>
         </div>
-        <div
-          class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
-        >
+        <div class="rounded-2xl border border-surface-800 bg-surface-900 p-6">
           <i class="pi pi-bolt text-xl text-[#d6af84]"></i>
-          <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
-            Eigenaarschap
-          </h3>
-          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm">
+          <h3 class="mt-3 font-medium text-surface-0">Eigenaarschap</h3>
+          <p class="mt-2 text-surface-400 text-sm">
             Kleine teams, grote verantwoordelijkheid—iedereen maakt het
             verschil.
           </p>
@@ -147,30 +129,10 @@
       </div>
     </section>
 
-    <!-- Stats -->
-    <!-- <section class="container mx-auto max-w-7xl px-4 pb-6">
-      <div class="grid gap-6 md:grid-cols-4">
-        <div
-          v-for="s in stats"
-          :key="s.label"
-          class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6 text-center"
-        >
-          <div
-            class="text-3xl font-semibold text-surface-900 dark:text-surface-0"
-          >
-            {{ s.value }}
-          </div>
-          <div class="mt-1 text-primary-500 dark:text-blue-700 font-medium">
-            {{ s.label }}
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- CTA -->
     <section class="container mx-auto max-w-7xl px-4 py-12">
       <div
-        class="rounded-2xl overflow-hidden relative border border-surface-200 dark:border-surface-800 bg-surface-900"
+        class="rounded-2xl overflow-hidden relative border border-surface-800 bg-surface-900"
         style="
           background: radial-gradient(
             120% 100% at 100% 0%,

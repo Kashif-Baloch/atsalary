@@ -15,7 +15,7 @@
           leaveToClass: 'hidden',
           hideOnOutsideClick: true,
         }"
-        class="cursor-pointer block lg:hidden text-surface-700 dark:text-surface-100 mt-1"
+        class="cursor-pointer block lg:hidden text-surface-100 mt-1"
       >
         <i class="pi pi-bars text-2xl!" />
       </a>
@@ -23,7 +23,7 @@
         class="items-center grow justify-between hidden lg:flex absolute lg:static w-full left-0 top-full px-12 lg:px-0 z-50 shadow lg:shadow-none bg-surface-900"
       >
         <ul
-          class="list-none p-0 py-4 lg:py-0 m-0 flex grow lg:items-center lg:justify-center text-surface-400 dark:text-surface-500 select-none flex-col lg:flex-row cursor-pointer"
+          class="list-none p-0 py-4 lg:py-0 m-0 flex grow lg:items-center lg:justify-center text-surface-500 select-none flex-col lg:flex-row cursor-pointer"
         >
           <li class="">
             <RouterLink to="/product">

@@ -2,3 +2,6 @@
 @import 'tailwindcss-primeui';
 @import 'primeicons/primeicons.css';
 
+body {
+  @apply bg-surface-900;
+}

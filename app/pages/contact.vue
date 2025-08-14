@@ -39,7 +39,7 @@
 
         <div class="flex-1 md:p-4 text-left">
           <div
-            class="bg-blue-50/50 dark:bg-blue-400/10 rounded-2xl md:p-8 p-4 py-8 md:py-8 lg:max-w-xl mx-auto shadow-2xl"
+            class="bg-blue-400/10 rounded-2xl md:p-8 p-4 py-8 md:py-8 lg:max-w-xl mx-auto shadow-2xl"
           >
             <h2 class="text-2xl font-bold text-white mb-6">Contact Form</h2>
             <form @submit.prevent="handleSubmit" class="space-y-6">

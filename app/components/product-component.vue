@@ -46,13 +46,13 @@
 
         <div class="flex-1 text-start">
           <div
-            class="bg-blue-50/50 dark:bg-blue-400/10 rounded-2xl p-4 md:p-8 max-w-md lg:max-w-xl mx-auto shadow-2xl"
+            class="bg-blue-400/10 rounded-2xl p-4 md:p-8 max-w-md lg:max-w-xl mx-auto shadow-2xl"
           >
             <h2 class="text-2xl font-bold text-white mb-6">Key Features</h2>
 
             <div class="space-y-6">
               <!-- Feature 1 -->
-              <div class="bg-blue-50/50 dark:bg-blue-400/10 rounded-xl p-6">
+              <div class="bg-blue-400/10 rounded-xl p-6">
                 <div class="flex items-center gap-3 mb-3">
                   <div class="bg-blue-700 rounded-full p-2">
                     <i class="pi pi-share-alt text-white text-lg"></i>
@@ -68,7 +68,7 @@
               </div>
 
               <!-- Feature 2 -->
-              <div class="bg-blue-50/50 dark:bg-blue-400/10 rounded-xl p-6">
+              <div class="bg-blue-400/10 rounded-xl p-6">
                 <div class="flex items-center gap-3 mb-3">
                   <div class="bg-blue-700 rounded-full p-2">
                     <i class="pi pi-eye text-white text-lg"></i>
@@ -84,7 +84,7 @@
               </div>
 
               <!-- Feature 3 -->
-              <div class="bg-blue-50/50 dark:bg-blue-400/10 rounded-xl p-6">
+              <div class="bg-blue-400/10 rounded-xl p-6">
                 <div class="flex items-center gap-3 mb-3">
                   <div class="bg-blue-700 rounded-full p-2">
                     <i class="pi pi-bolt text-white text-lg"></i>

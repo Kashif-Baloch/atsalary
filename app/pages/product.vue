@@ -3,19 +3,15 @@
 
   <ProductComponent />
 
-  <div class="bg-surface-0 dark:bg-surface-900">
+  <div class="bg-surface-900">
     <div
       class="container mx-auto max-w-7xl px-4 py-20 flex flex-col gap-8 justify-center items-center relative"
     >
       <div class="flex flex-col gap-2 items-center max-w-3xl mx-auto">
-        <h3
-          class="text-surface-900 dark:text-surface-0 font-bold text-2xl leading-tight text-center"
-        >
+        <h3 class="text-surface-0 font-bold text-2xl leading-tight text-center">
           Explore the features
         </h3>
-        <p
-          class="text-surface-600 dark:text-surface-400 text-center leading-tight"
-        >
+        <p class="text-surface-400 text-center leading-tight">
           Libero justo laoreet sit amet cursus sit amet dictum. Auctor neque
           vitae tempus quam pellentesque nec nam.
         </p>
@@ -30,18 +26,18 @@
           >
             <div class="hidden sm:flex flex-col items-center">
               <div
-                class="w-12 h-12 rounded-2xl border border-surface-200 dark:border-surface-700 flex items-center justify-center px-1 py-2 bg-white dark:bg-surface-800"
+                class="w-12 h-12 rounded-2xl border border-surface-700 flex items-center justify-center px-1 py-2 bg-surface-800"
               >
                 <span
-                  class="text-surface-900 dark:text-surface-0 font-medium text-xl leading-tight"
+                  class="text-surface-0 font-medium text-xl leading-tight"
                   >{{ item.id }}</span
                 >
               </div>
-              <div class="w-px bg-surface-200 dark:bg-surface-700 flex-1" />
+              <div class="w-px bg-surface-700 flex-1" />
             </div>
             <div class="flex w-full flex-col gap-4">
               <div
-                class="w-fit h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
+                class="w-fit h-52 bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <img
                   :src="`/archief/${item.id}.png`"
@@ -51,28 +47,22 @@
               </div>
               <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-2">
-                  <h4
-                    class="text-surface-900 dark:text-surface-0 text-lg font-medium leading-tight"
-                  >
+                  <h4 class="text-surface-0 text-lg font-medium leading-tight">
                     {{ item.title }}
                   </h4>
-                  <p
-                    class="text-surface-600 dark:text-surface-400 leading-normal"
-                  >
+                  <p class="text-surface-400 leading-normal">
                     {{ item.description }}
                   </p>
                 </div>
-                <div class="h-px bg-surface-200 dark:bg-surface-700 w-full" />
+                <div class="h-px bg-surface-700 w-full" />
                 <div class="flex flex-col gap-2">
                   <p
                     v-for="(detail, detailIndex) in item.details"
                     :key="detailIndex"
-                    class="leading-normal text-surface-900 dark:text-surface-0"
+                    class="leading-normal text-surface-0"
                   >
                     <span class="font-medium">{{ detail.title }}</span>
-                    <span class="text-surface-600 dark:text-surface-400">{{
-                      detail.text
-                    }}</span>
+                    <span class="text-surface-400">{{ detail.text }}</span>
                   </p>
                 </div>
               </div>
@@ -89,7 +79,7 @@
           >
             <div class="w-127">
               <div
-                class="h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
+                class="h-52 bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <div class="w-full h-full flex items-center justify-center">
                   <img
@@ -102,40 +92,34 @@
             </div>
             <div class="flex flex-col items-center">
               <div
-                class="w-12 h-12 rounded-2xl border border-surface-200 dark:border-surface-700 flex items-center justify-center px-1 py-2 bg-white dark:bg-surface-800"
+                class="w-12 h-12 rounded-2xl border border-surface-700 flex items-center justify-center px-1 py-2 bg-surface-800"
               >
                 <span
-                  class="text-surface-900 dark:text-surface-0 font-medium text-xl leading-tight"
+                  class="text-surface-0 font-medium text-xl leading-tight"
                   >{{ item.id }}</span
                 >
               </div>
-              <div class="w-px bg-surface-200 dark:bg-surface-700 h-[200px]" />
+              <div class="w-px bg-surface-700 h-[200px]" />
             </div>
             <div class="w-127" :class="{ 'text-right': index % 2 === 0 }">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-2">
-                  <h4
-                    class="text-surface-900 dark:text-surface-0 text-lg font-medium leading-tight"
-                  >
+                  <h4 class="text-surface-0 text-lg font-medium leading-tight">
                     {{ item.title }}
                   </h4>
-                  <p
-                    class="text-surface-600 dark:text-surface-400 leading-normal"
-                  >
+                  <p class="text-surface-400 leading-normal">
                     {{ item.description }}
                   </p>
                 </div>
-                <div class="h-px bg-surface-200 dark:bg-surface-700 w-full" />
+                <div class="h-px bg-surface-700 w-full" />
                 <div class="flex flex-col gap-2">
                   <p
                     v-for="(detail, detailIndex) in item.details"
                     :key="detailIndex"
-                    class="leading-normal text-surface-900 dark:text-surface-0"
+                    class="leading-normal text-surface-0"
                   >
                     <span class="font-medium">{{ detail.title }}</span>
-                    <span class="text-surface-600 dark:text-surface-400">{{
-                      detail.text
-                    }}</span>
+                    <span class="text-surface-400">{{ detail.text }}</span>
                   </p>
                 </div>
               </div>

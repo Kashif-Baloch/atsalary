@@ -45,13 +45,13 @@
 
         <div class="flex-1 text-start">
           <div
-            class="bg-blue-50/50 dark:bg-blue-400/10 rounded-2xl p-8 max-w-md lg:max-w-xl mx-auto shadow-2xl"
+            class="bg-blue-400/10 rounded-2xl p-8 max-w-md lg:max-w-xl mx-auto shadow-2xl"
           >
             <h2 class="text-2xl font-bold text-white mb-6">Ons Verhaal</h2>
 
             <div class="space-y-6">
               <!-- Mission -->
-              <div class="bg-blue-50/50 dark:bg-blue-400/10 rounded-xl p-6">
+              <div class="bg-blue-400/10 rounded-xl p-6">
                 <div class="flex items-center gap-3 mb-3">
                   <div class="bg-blue-700 rounded-full p-2">
                     <i class="pi pi-flag text-white text-lg"></i>
@@ -66,7 +66,7 @@
               </div>
 
               <!-- Vision -->
-              <div class="bg-blue-50/50 dark:bg-blue-400/10 rounded-xl p-6">
+              <div class="bg-blue-400/10 rounded-xl p-6">
                 <div class="flex items-center gap-3 mb-3">
                   <div class="bg-blue-700 rounded-full p-2">
                     <i class="pi pi-star text-white text-lg"></i>
