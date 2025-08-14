@@ -347,6 +347,11 @@ import Button from "primevue/button";
 import Navbar from "~/layouts/navbar.vue";
 import Footer from "~/layouts/footer.vue";
 
+useHead({
+  title: "Pricing — @Salary",
+  meta: [{ name: "description", content: "Social CRM platform" }],
+});
+
 const handleGetStarted = () => {
   // Handle get started action
   console.log("Get started clicked");

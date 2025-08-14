@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="bg-surface-0 dark:bg-surface-950">
+    <!-- <div class="bg-surface-0 dark:bg-surface-950">
       <div class="container mx-auto max-w-7xl px-4 gap-3 py-20">
         <div class="flex flex-col gap-4">
           <div class="relative overflow-hidden">
@@ -350,9 +350,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="bg-surface-0 dark:bg-surface-950">
+    <!-- <div class="bg-surface-0 dark:bg-surface-950">
       <div class="container mx-auto max-w-7xl px-4 overflow-hidden py-20">
         <div class="flex flex-col gap-12 items-center">
           <div class="flex flex-col gap-4 items-center max-w-3xl mx-auto">
@@ -511,7 +511,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="bg-surface-0 dark:bg-surface-900">
       <div

@@ -1,9 +1,11 @@
 <template>
   <Navbar />
 
+  <ProductComponent />
+
   <div class="bg-surface-0 dark:bg-surface-900">
     <div
-      class="container mx-auto max-w-7xl px-4 mt-20 py-20 flex flex-col gap-8 justify-center items-center relative"
+      class="container mx-auto max-w-7xl px-4 py-20 flex flex-col gap-8 justify-center items-center relative"
     >
       <div class="flex flex-col gap-2 items-center max-w-3xl mx-auto">
         <h3
@@ -42,9 +44,9 @@
                 class="w-fit h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <img
-                  :src="`/archief/pic ${item.id + 1}.png`"
-                  :alt="`Image ${item.id + 1}`"
-                  class="max-w-full max-h-full object-contain"
+                  :src="`/archief/${item.id}.png`"
+                  :alt="`Image ${item.id}`"
+                  class="max-w-full rounded-[10px] border-surface-200 dark:border-surface-700 border-2 max-h-full object-contain"
                   style="height: auto"
                 />
               </div>
@@ -92,9 +94,9 @@
               >
                 <div class="w-full h-full flex items-center justify-center">
                   <img
-                    :src="`/archief/pic ${item.id + 1}.png`"
-                    :alt="`Image ${item.id + 1}`"
-                    class="w-full h-full object-contain"
+                    :src="`/archief/${item.id}.png`"
+                    :alt="`Image ${item.id}`"
+                    class="w-full rounded-[10px] border-surface-200 dark:border-surface-700 border-2 h-full object-contain"
                   />
                 </div>
               </div>
@@ -152,6 +154,12 @@
 import Navbar from "../layouts/navbar.vue";
 import Footer from "../layouts/footer.vue";
 import { ref } from "vue";
+import ProductComponent from "../components/product-component.vue";
+
+useHead({
+  title: "Product — @Salary",
+  meta: [{ name: "description", content: "Social CRM platform" }],
+});
 
 const timelineItems = ref([
   {

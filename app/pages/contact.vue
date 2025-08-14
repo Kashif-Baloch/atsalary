@@ -138,6 +138,11 @@ import Button from "primevue/button";
 import Navbar from "../layouts/navbar.vue";
 import Footer from "../layouts/footer.vue";
 
+useHead({
+  title: "Contact — @Salary",
+  meta: [{ name: "description", content: "Contact page" }],
+});
+
 const isSubmitting = ref(false);
 
 const form = reactive({
@@ -174,103 +179,4 @@ const handleSubmit = async () => {
     isSubmitting.value = false;
   }
 };
-
-const features = [
-  "Arcu purus",
-  "Posuere felis",
-  "Curabitur mollis",
-  "Vitae odio",
-  "Orci, mi",
-  "Tincidunt vulputate",
-  "Quis felis",
-  "Dignissim vivamus",
-];
-
-const basicFeatures = [true, true, true, true, false, false, false, "5"];
-const premiumFeatures = [true, true, true, true, true, false, false, "10"];
-const enterpriseFeatures = [
-  true,
-  true,
-  true,
-  true,
-  true,
-  true,
-  true,
-  "Unlimited",
-];
-const stats = ref([
-  {
-    icon: "pi pi-video",
-    value: "52000",
-    label: "Streams",
-  },
-  {
-    icon: "pi pi-heart",
-    value: "21000",
-    label: "Engagement",
-  },
-  {
-    icon: "pi pi-clock",
-    value: "71.2",
-    label: "Watch Time",
-  },
-  {
-    icon: "pi pi-thumbs-up",
-    value: "4500",
-    label: "Likes",
-  },
-]);
-const timelineItems = ref([
-  {
-    id: 1,
-    title: "Ornare Arcu Odio",
-    description:
-      "Quisque sagittis purus sit amet volutpat consequat mauris nunc. Scelerisque eleifend.",
-    details: [
-      {
-        title: "Sed lectus vestibulum",
-        text: "mattis ullamcorper velit. Laoreet sit amet cursus sit.",
-      },
-      {
-        title: "Fames ac turpis",
-        text: "egestas sed tempus urna et. Cursus turpis massa.",
-      },
-    ],
-    imageWidth: "23rem",
-  },
-  {
-    id: 2,
-    title: "A diam maecenas",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    details: [
-      {
-        title: "Quis hendrerit dolor",
-        text: "magna eget est. Pellentesque pulvinar pellentesque.",
-      },
-      {
-        title: "Lectus urna duis",
-        text: "convallis convallis tellus id interdum velit laoreet.",
-      },
-    ],
-    imageWidth: "14rem",
-  },
-  {
-    id: 3,
-    title: "Pharetra et ultrices neque",
-    description:
-      "Id interdum velit laoreet id. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.",
-    details: [
-      {
-        title: "Egestas dui id",
-        text: "ornare arcu odio ut. Mi bibendum neque egestas congue.",
-      },
-      {
-        title: "Sed velit dignissim",
-        text: "sodales ut eu. Massa placerat duis ultricies lacus.",
-      },
-    ],
-    imageWidth: "25rem",
-  },
-]);
 </script>
