@@ -2,7 +2,7 @@
     viewBox="0 0 286.78 75.78">
     <defs>
         <linearGradient id="prefix__a" x1="37.24" y1="35.52" x2="137.29" y2="35.52" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="yellow" />
+            <stop offset="0" stop-color="#d6af84" />
             <stop offset="1" stop-color="#07389b" />
         </linearGradient>
         <linearGradient id="prefix__b" x1="18.77" y1="41.36" x2="118.82" y2="41.36" xlink:href="#prefix__a" />
@@ -10,7 +10,7 @@
         <linearGradient id="prefix__d" x1="18.77" y1="41.36" x2="118.82" y2="41.36" xlink:href="#prefix__a" />
         <linearGradient id="prefix__e" x1="18.77" y1="40.89" x2="118.82" y2="40.89" xlink:href="#prefix__a" />
         <linearGradient id="prefix__f" x1="47.28" y1="37.89" x2="110.58" y2="37.89" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="yellow" />
+            <stop offset="0" stop-color="#d6af84" />
             <stop offset="1" stop-color="#07389b" />
         </linearGradient>
     </defs>

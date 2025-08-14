@@ -109,17 +109,11 @@
               <div class="text-center">
                 <p class="text-gray-400 text-sm mb-2">Need help choosing?</p>
                 <div class="flex justify-center space-x-4">
-                  <a
-                    href="#"
-                    class="text-blue-700 hover:text-blue-600 text-sm transition-colors"
-                  >
-                    <i class="pi pi-phone mr-1"></i>Call Sales
+                  <a href="#" class="text-gray-400 text-sm transition-colors">
+                    <i class="pi pi-phone mr-1 text-[#d6af84]"></i>Call Sales
                   </a>
-                  <a
-                    href="#"
-                    class="text-blue-700 hover:text-blue-600 text-sm transition-colors"
-                  >
-                    <i class="pi pi-envelope mr-1"></i>Email Us
+                  <a href="#" class="text-gray-400 text-sm transition-colors">
+                    <i class="pi pi-envelope mr-1 text-[#d6af84]"></i>Email Us
                   </a>
                 </div>
               </div>

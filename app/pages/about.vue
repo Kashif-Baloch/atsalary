@@ -1,20 +1,11 @@
 <template>
   <Navbar />
-  <!-- Terug naar de homepage -->
-  <div
-    class="flex items-center mt-20 gap-2 container mx-auto max-w-7xl px-4 py-8"
-  >
-    <NuxtLink
-      to="/"
-      class="text-blue-700 hover:text-blue-600 transition-colors"
-    >
-      <i class="pi pi-chevron-left"></i> Terug naar homepage
-    </NuxtLink>
-  </div>
 
-  <div class="min-h-screen bg-surface-0 dark:bg-surface-950">
+  <OveronsComponent />
+
+  <div class="min-h-screen bg-surface-0 dark:bg-surface-900">
     <!-- Hero -->
-    <section class="bg-surface-800">
+    <section>
       <div class="container mx-auto max-w-7xl px-4 py-16 md:py-20">
         <p class="text-blue-700 uppercase tracking-wider font-semibold">
           Over ons
@@ -121,7 +112,7 @@
         <div
           class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
         >
-          <i class="pi pi-star text-xl text-blue-700"></i>
+          <i class="pi pi-star text-xl text-[#d6af84]"></i>
           <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
             Klantwaarde eerst
           </h3>
@@ -132,7 +123,7 @@
         <div
           class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
         >
-          <i class="pi pi-shield text-xl text-blue-700"></i>
+          <i class="pi pi-shield text-xl text-[#d6af84]"></i>
           <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
             Betrouwbaarheid
           </h3>
@@ -144,7 +135,7 @@
         <div
           class="rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-6"
         >
-          <i class="pi pi-bolt text-xl text-blue-700"></i>
+          <i class="pi pi-bolt text-xl text-[#d6af84]"></i>
           <h3 class="mt-3 font-medium text-surface-900 dark:text-surface-0">
             Eigenaarschap
           </h3>
@@ -157,7 +148,7 @@
     </section>
 
     <!-- Stats -->
-    <section class="container mx-auto max-w-7xl px-4 pb-6">
+    <!-- <section class="container mx-auto max-w-7xl px-4 pb-6">
       <div class="grid gap-6 md:grid-cols-4">
         <div
           v-for="s in stats"
@@ -174,7 +165,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- CTA -->
     <section class="container mx-auto max-w-7xl px-4 py-12">
@@ -229,6 +220,7 @@ import { ref, computed } from "vue";
 import Button from "primevue/button";
 import Navbar from "../layouts/navbar.vue";
 import Footer from "../layouts/footer.vue";
+import OveronsComponent from "../components/overons-component.vue";
 import { useHead } from "#imports";
 
 useHead({

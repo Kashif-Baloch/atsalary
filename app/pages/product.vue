@@ -46,8 +46,7 @@
                 <img
                   :src="`/archief/${item.id}.png`"
                   :alt="`Image ${item.id}`"
-                  class="max-w-full rounded-[10px] border-surface-200 dark:border-surface-700 border-2 max-h-full object-contain"
-                  style="height: auto"
+                  class="w-full h-full object-cover"
                 />
               </div>
               <div class="flex flex-col gap-4">
@@ -88,15 +87,15 @@
             class="flex gap-12"
             :class="{ 'flex-row-reverse': index % 2 === 0 }"
           >
-            <div class="w-127 flex justify-center">
+            <div class="w-127">
               <div
-                class="h-52 w-fit bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
+                class="h-52 bg-surface-50 dark:bg-surface-800 rounded-[10px] overflow-hidden flex justify-center items-center shadow-inner relative"
               >
                 <div class="w-full h-full flex items-center justify-center">
                   <img
                     :src="`/archief/${item.id}.png`"
                     :alt="`Image ${item.id}`"
-                    class="w-full rounded-[10px] border-surface-200 dark:border-surface-700 border-2 h-full object-contain"
+                    class="w-full h-full object-cover"
                   />
                 </div>
               </div>

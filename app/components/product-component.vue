@@ -16,20 +16,20 @@
           </p>
           <ul class="list-none flex flex-col gap-4">
             <li class="flex items-center gap-2">
-              <i class="pi pi-chart-line text-blue-700 text-xl!" />
+              <i class="pi pi-chart-line text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Track engagement across all social platforms in
                 real-time.</span
               >
             </li>
             <li class="flex items-center gap-2">
-              <i class="pi pi-users text-blue-700 text-xl!" />
+              <i class="pi pi-users text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Manage customer relationships with advanced CRM tools.</span
               >
             </li>
             <li class="flex items-center gap-2">
-              <i class="pi pi-cog text-blue-700 text-xl!" />
+              <i class="pi pi-cog text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
                 >Automate workflows to save time and increase efficiency.</span
               >
