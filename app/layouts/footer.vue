@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-surface-0 dark:bg-surface-900">
+  <div class="bg-surface-0 dark:bg-surface-900 pb-10">
     <div class="container mx-auto max-w-7xl px-4 py-4 flex flex-col gap-8">
       <div class="h-px bg-surface-300 dark:bg-surface-700" />
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
