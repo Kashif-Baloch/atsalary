@@ -7,30 +7,30 @@
             class="lg:text-5xl text-3xl font-bold text-white mb-4 leading-tight"
           >
             Wij helpen bedrijven groeien met
-            <span class="text-blue-700 underline">sociale innovatie</span>
+            <span class="text-blue-700 underline">slimme salarisinnovatie</span>
           </h1>
           <p class="text-2xl text-gray-400 mb-8 leading-normal">
-            Sinds 2020 ontwikkelen wij krachtige Social CRM-oplossingen die
-            bedrijven helpen om betekenisvolle relaties op te bouwen en hun
-            online aanwezigheid te versterken.
+            Sinds 2025 ontwikkelen wij krachtige salarisadministratie-oplossingen die bedrijven helpen om foutloos te werken, altijd compliant te blijven en realtime inzicht te krijgen in hun personeelskosten.
+            
+            
           </p>
           <ul class="list-none flex flex-col gap-4">
             <li class="flex items-center gap-2">
               <i class="pi pi-heart text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Passie voor het verbinden van mensen en merken.</span
+                >Passie voor efficiëntie</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-lightbulb text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Innovatieve oplossingen voor moderne uitdagingen.</span
+                >Innovatieve oplossingen</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-shield text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Betrouwbare partner voor duurzame groei.</span
+                >Betrouwbare partner</span
               >
             </li>
           </ul>
@@ -59,9 +59,9 @@
                   <h3 class="text-lg font-semibold text-white">Onze Missie</h3>
                 </div>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                  Bedrijven empoweren om authentieke relaties te bouwen door
-                  middel van slimme sociale technologie en persoonlijke
-                  benadering.
+                  Bedrijven in staat stellen hun salarisadministratie volledig te automatiseren, zodat zij zich kunnen richten op groei en hun medewerkers op tevredenheid.
+                  
+                  
                 </p>
               </div>
 
@@ -74,8 +74,8 @@
                   <h3 class="text-lg font-semibold text-white">Onze Visie</h3>
                 </div>
                 <p class="text-gray-300 text-sm leading-relaxed">
-                  Een wereld waarin elk bedrijf, groot of klein, de kracht van
-                  sociale verbindingen kan benutten voor duurzame groei.
+                  Een wereld waarin elk bedrijf groot of klein eenvoudig, foutloos en volledig volgens de regels salaris kan uitbetalen.
+                  
                 </p>
               </div>
             </div>
@@ -85,11 +85,11 @@
             >
               <div class="flex justify-between items-center">
                 <div class="text-center">
-                  <p class="text-2xl font-bold text-white">4+</p>
+                  <p class="text-2xl font-bold text-white">1+</p>
                   <p class="text-gray-400 text-sm">Jaar Ervaring</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-2xl font-bold text-white">15+</p>
+                  <p class="text-2xl font-bold text-white">5+</p>
                   <p class="text-gray-400 text-sm">Team Leden</p>
                 </div>
                 <div class="text-center">

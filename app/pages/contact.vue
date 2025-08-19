@@ -8,30 +8,28 @@
           <h1
             class="lg:text-5xl text-3xl font-bold text-white mb-4 leading-tight"
           >
-            Get in touch with us
-            <span class="text-blue-700 underline">today</span>
+            Neem vandaag nog <span class="text-blue-700 underline">contact</span> met ons op
           </h1>
           <p class="text-2xl text-gray-400 mb-8 leading-normal">
-            We'd love to hear from you. Send us a message and we'll respond as
-            soon as possible.
+            Wij staan klaar om je te helpen. Stuur ons een bericht en ons team reageert zo snel mogelijk
           </p>
           <ul class="list-none flex flex-col gap-4">
             <li class="flex items-center gap-2">
               <i class="pi pi-phone text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Quick response within 24 hours.</span
+                >Binnen 24 uur reactie snel antwoord op je vragen</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-envelope text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Professional support team ready to help.</span
+                >Toegewijd supportteam deskundige hulp bij elke stap</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-users text-[#d6af84] text-xl!" />
               <span class="text-gray-400 leading-normal"
-                >Personalized solutions for your business needs.</span
+                >Oplossingen op maat advies dat past bij jouw organisatie</span
               >
             </li>
           </ul>
@@ -41,14 +39,14 @@
           <div
             class="bg-blue-400/10 rounded-2xl md:p-8 p-4 py-8 md:py-8 lg:max-w-xl mx-auto shadow-2xl"
           >
-            <h2 class="text-2xl font-bold text-white mb-6">Contact Form</h2>
+            <h2 class="text-2xl font-bold text-white mb-6">Contactformulier</h2>
             <form @submit.prevent="handleSubmit" class="space-y-6">
               <div>
                 <label
                   class="block text-gray-400 text-sm font-medium mb-2"
                   for="name"
                 >
-                  Full Name
+                  Naam
                 </label>
                 <input
                   v-model="form.name"
@@ -57,7 +55,7 @@
                   name="name"
                   required
                   class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent transition-all"
-                  placeholder="Enter your full name"
+                  placeholder="Vul je volledige naam in"
                 />
               </div>
 
@@ -66,7 +64,7 @@
                   class="block text-gray-400 text-sm font-medium mb-2"
                   for="email"
                 >
-                  Email Address
+                  E-mailadres
                 </label>
                 <input
                   v-model="form.email"
@@ -75,7 +73,7 @@
                   name="email"
                   required
                   class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent transition-all"
-                  placeholder="Enter your email address"
+                  placeholder="Zodat we je kunnen bereiken"
                 />
               </div>
 
@@ -84,7 +82,7 @@
                   class="block text-gray-400 text-sm font-medium mb-2"
                   for="message"
                 >
-                  Message
+                  Bericht
                 </label>
                 <textarea
                   v-model="form.message"
@@ -93,14 +91,14 @@
                   rows="4"
                   required
                   class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent transition-all resize-none"
-                  placeholder="Tell us more about your inquiry..."
+                  placeholder="Vertel ons waar we je mee kunnen helpen"
                 ></textarea>
               </div>
 
               <Button
                 type="submit"
                 :loading="isSubmitting"
-                label="Send Message"
+                label="Verstuur bericht"
                 rounded
                 size="large"
                 class="w-full !text-white !bg-blue-700 !border-none !outline-none"
@@ -114,12 +112,12 @@
                     class="pi pi-envelope text-[#d6af84] text-lg mb-2 block"
                   ></i>
                   <p class="text-gray-400 text-sm">Email</p>
-                  <p class="text-white text-sm">hello@company.com</p>
+                  <p class="text-white text-sm">info@at-salary.nl</p>
                 </div>
                 <div class="text-center">
                   <i class="pi pi-phone text-[#d6af84] text-lg mb-2 block"></i>
                   <p class="text-gray-400 text-sm">Phone</p>
-                  <p class="text-white text-sm">+1 (555) 123-4567</p>
+                  <p class="text-white text-sm">+31 621309436</p>
                 </div>
               </div>
             </div>

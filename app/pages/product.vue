@@ -9,11 +9,11 @@
     >
       <div class="flex flex-col gap-2 items-center max-w-3xl mx-auto">
         <h3 class="text-surface-0 font-bold text-2xl leading-tight text-center">
-          Explore the features
+          Ontdek de functies
         </h3>
         <p class="text-surface-400 text-center leading-tight">
-          Libero justo laoreet sit amet cursus sit amet dictum. Auctor neque
-          vitae tempus quam pellentesque nec nam.
+          Met @Salary beheer je al je salarisgerelateerde processen op één plek. Van declaraties tot verlof en loonruns alles is snel, foutloos en overzichtelijk geregeld.
+          
         </p>
       </div>
 
@@ -147,51 +147,39 @@ useHead({
 const timelineItems = ref([
   {
     id: 1,
-    title: "Ornare Arcu Odio",
+    title: "Declaratiebeheer",
     description:
-      "Quisque sagittis purus sit amet volutpat consequat mauris nunc. Scelerisque eleifend.",
+      "Dien declaraties digitaal in en keur ze goed met één klik.",
     details: [
       {
-        title: "Sed lectus vestibulum",
-        text: "mattis ullamcorper velit. Laoreet sit amet cursus sit.",
-      },
-      {
-        title: "Fames ac turpis",
-        text: "egestas sed tempus urna et. Cursus turpis massa.",
+        title: "Voordelen: ",
+        text: "minder papierwerk, sneller goedkeuren, altijd overzicht.",
       },
     ],
     imageWidth: "23rem",
   },
   {
     id: 2,
-    title: "A diam maecenas",
+    title: "Verlofbeheer",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "Altijd inzicht in verlofaanvragen en -saldi.",
     details: [
       {
-        title: "Quis hendrerit dolor",
-        text: "magna eget est. Pellentesque pulvinar pellentesque.",
-      },
-      {
-        title: "Lectus urna duis",
-        text: "convallis convallis tellus id interdum velit laoreet.",
+        title: "Voordelen: ",
+        text: "realtime saldo, één-klik goedkeuring, automatische koppeling met salaris.",
       },
     ],
     imageWidth: "14rem",
   },
   {
     id: 3,
-    title: "Pharetra et ultrices neque",
+    title: "Geautomatiseerde loonruns",
     description:
-      "Id interdum velit laoreet id. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.",
+      "Voer loonruns automatisch uit met minimale mutaties.",
     details: [
       {
-        title: "Egestas dui id",
-        text: "ornare arcu odio ut. Mi bibendum neque egestas congue.",
-      },
-      {
-        title: "Sed velit dignissim",
-        text: "sodales ut eu. Massa placerat duis ultricies lacus.",
+        title: "Voordelen: ",
+        text: "tijdbesparing, foutloos, altijd up-to-date volgens wetgeving.",
       },
     ],
     imageWidth: "25rem",

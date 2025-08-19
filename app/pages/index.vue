@@ -10,39 +10,38 @@
           <h1
             class="text-2xl lg:text-5xl font-bold text-white mb-4 leading-tight"
           >
-            Klonker gave pagina
-            <span class="text-blue-700 underline">for free</span>
+            Salarisadministratie was nog nooit zo
+            <span class="text-blue-700 underline">eenvoudig</span>
           </h1>
           <p class="text-2xl text-gray-400 mb-8 leading-normal">
-            Arcu cursus euismod quis viverra nibh cras. Amet justo donec enim
-            diam vulputate ut.
+          Met @Salary regel je je volledige salarisadministratie online. Snel, foutloos en altijd volgens de laatste regels. Bespaar tijd en krijg direct inzicht in je personeelskosten.
           </p>
           <ul class="list-none flex flex-col gap-4">
             <li class="flex items-center gap-2">
               <i class="pi pi-trophy text-[#d6af84] text-xl!" /><span
                 class="text-gray-400 leading-normal"
-                >Senectus et netus et malesuada fames.</span
+                >Altijd up-to-date</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-sparkles text-[#d6af84] text-xl!" /><span
                 class="text-gray-400 leading-normal"
-                >Orci a scelerisque purus semper eget.</span
+                >Foutloos & snel</span
               >
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-bolt text-[#d6af84] text-xl!" /><span
                 class="text-gray-400 leading-normal"
-                >Aenean sed adipiscing diam donec adipiscing tristique.</span
+                >Direct inzicht</span
               >
             </li>
           </ul>
           <RouterLink to="/contact">
             <Button
-              label="Claim Your Account"
+              label="Start Vandaag Nog"
               rounded
               size="large"
-              class="mt-12 !bg-blue-700 !border-none !text-white !outline-none"
+              class="mt-12 mb-23 !bg-blue-700 !border-none !text-white !outline-none"
             />
           </RouterLink>
         </div>

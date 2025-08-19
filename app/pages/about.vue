@@ -97,7 +97,7 @@
           Onze waarden
         </h2>
         <p class="mt-3 text-surface-400">
-          De principes die ons dagelijks sturen—van productbeslissingen tot
+          De principes die ons dagelijks sturen van productbeslissingen tot
           support.
         </p>
       </div>
@@ -107,7 +107,7 @@
           <i class="pi pi-star text-xl text-[#d6af84]"></i>
           <h3 class="mt-3 font-medium text-surface-0">Klantwaarde eerst</h3>
           <p class="mt-2 text-surface-400 text-sm">
-            We leveren features die echte impact hebben—meetbaar en merkbaar.
+            We leveren features die echte impact hebben meetbaar en merkbaar
           </p>
         </div>
         <div class="rounded-2xl border border-surface-800 bg-surface-900 p-6">
@@ -115,15 +115,15 @@
           <h3 class="mt-3 font-medium text-surface-0">Betrouwbaarheid</h3>
           <p class="mt-2 text-surface-400 text-sm">
             Veilig, voorspelbaar en schaalbaar. Payroll laat geen ruimte voor
-            toeval.
+            toeval
           </p>
         </div>
         <div class="rounded-2xl border border-surface-800 bg-surface-900 p-6">
           <i class="pi pi-bolt text-xl text-[#d6af84]"></i>
           <h3 class="mt-3 font-medium text-surface-0">Eigenaarschap</h3>
           <p class="mt-2 text-surface-400 text-sm">
-            Kleine teams, grote verantwoordelijkheid—iedereen maakt het
-            verschil.
+            Kleine teams, grote verantwoordelijkheid iedereen maakt het
+            verschil
           </p>
         </div>
       </div>
@@ -193,7 +193,7 @@ useHead({
 });
 
 const tabs = [
-  { key: "leadership", label: "Leadership" },
+  { key: "leadership", label: "Management" },
   { key: "engineering", label: "Engineering" },
   { key: "sales", label: "Sales" },
   { key: "support", label: "Support" },
